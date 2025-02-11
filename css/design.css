@@ -181,7 +181,14 @@ main .author p.name {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    bottom: 0;
+    bottom: 12px;
+}
+
+@media (max-width:567px) {
+    .card .container .attribution {
+        bottom: 18px;
+        width: 248px;
+    }
 }
 
 .card .container .attribution a {
